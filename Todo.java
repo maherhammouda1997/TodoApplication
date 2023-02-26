@@ -7,10 +7,8 @@ public class Todo {
 		private String description;
 		
 		// Constructeur de la classe Todo
-		public Todo(Urgence urgence, String titre, String description) throws UrgenceException {
-			if (urgence == null) {
-				throw new UrgenceException();
-			}
+		public Todo(Urgence urgence, String titre, String description) {
+			
 		   this.urgence = urgence;
 		   this.titre = titre;
 		   this.description = description;

@@ -4,6 +4,6 @@ public enum Urgence {
 	
 	HAUTE, 
 	NORMALE, 
-	FAIBLE
+	FAIBLE;
 	
 }

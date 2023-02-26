@@ -36,10 +36,8 @@ public class TodoListApp {
 			todos.add(new Todo(urgence, titre, description));
 			System.out.println("Todo ajouté !");
 
-		} //catch (IllegalArgumentException e) {
-			//System.out.println("Priorité invalide. Veuillez réessayer.");
-			catch (UrgenceException e) {        
-			System.out.println(e.getMessage());
+		} 	catch (IllegalArgumentException e) {
+			System.out.println("Priorité invalide. Veuillez réessayer.");			
 		}
 	}
 
